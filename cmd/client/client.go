@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/cokemine/ServerStatus-goclient/pkg/status"
+	"github.com/jkfujr/ServerStatus-goclient/pkg/status"
 	jsoniter "github.com/json-iterator/go"
 	"log"
 	"net"

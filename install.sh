@@ -66,7 +66,7 @@ function write_service() {
   cat >${service_conf} <<-EOF
 [Unit]
 Description=ServerStatus-Client
-Documentation=https://github.com/cokemine/ServerStatus-goclient
+Documentation=https://github.com/jkfujr/ServerStatus-goclient
 After=network.target
 
 [Service]
@@ -131,7 +131,7 @@ function install_client() {
   esac
   echo -e "${Info} 下载 ${arch} 二进制文件"
   mkdir -p /usr/local/ServerStatus/client/
-  cd /tmp && wget "https://github.com/cokemine/ServerStatus-goclient/releases/latest/download/status-client_linux_${arch}.tar.gz"
+  cd /tmp && wget "https://github.com/jkfujr/ServerStatus-goclient/releases/latest/download/status-client_linux_${arch}.tar.gz"
   tar -zxvf "status-client_linux_${arch}.tar.gz" status-client
   mv status-client /usr/local/ServerStatus/client/
   chmod +x /usr/local/ServerStatus/client/status-client

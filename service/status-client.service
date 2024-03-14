@@ -1,6 +1,6 @@
 [Unit]
 Description=ServerStatus-Client
-Documentation=https://github.com/cokemine/ServerStatus-goclient
+Documentation=https://github.com/jkfujr/ServerStatus-goclient
 After=network.target
 
 [Service]

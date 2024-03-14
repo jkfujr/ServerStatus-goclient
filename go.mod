@@ -1,4 +1,4 @@
-module github.com/cokemine/ServerStatus-goclient
+module github.com/jkfujr/ServerStatus-goclient
 
 go 1.16
 

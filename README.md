@@ -2,7 +2,7 @@
 
 使用Golang写的ServerStatus-Hotaru客户端。
 
-请直接下载[release](https://github.com/cokemine/ServerStatus-goclient/releases)下的对应平台的二进制文件。
+请直接下载[release](https://github.com/jkfujr/ServerStatus-goclient/releases)下的对应平台的二进制文件。
 
 ## 使用说明
 
